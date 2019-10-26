@@ -40,12 +40,12 @@ digraph EngTelecom {
     {PCA} -> FSC1
     {FSC1} -> FSC2
     {FSC1 CAL2} -> FSC3
-    
+
 
     // Eixo amarelo
     {CAL1 ALG FSC3} -> CIE1
     {CIE1 CAL2} -> CIE2
-    {CIE2 SIS2} -> CIE3 
+    {CIE2 SIS2} -> CIE3
     {CIE2 LCI QMC1} -> ELA1
     {CAL2 CIE2 ELA1 SIS2} -> ELA2
     {ELA2 CIE3} -> ELA3
@@ -78,8 +78,7 @@ digraph EngTelecom {
     {MIC SOP POO} -> STE
 
     // Eixo roxo
-    {MTG} -> ANT
-    {COM1} -> ANT [color="#FF0000" constraint=false]
+    {MTG} -> ANT # recomendada: COM1
     {COM1 ANT ELA3} -> CRF # recomendada CSF
     {STC} -> CRF [color="#FF0000" constraint=false]
     {ANT COM1} -> CSF
@@ -87,7 +86,7 @@ digraph EngTelecom {
     {EMG} -> MTG # recomendada: CAL4
     {CSF} -> STC
     {CRF} -> STC [color="#FF0000" constraint=false]
-    {MTG SIS1} -> TLF 
+    {MTG SIS1} -> TLF
 
     // Eixo verde claro
     {ELD1 PRG1} -> RED1
@@ -117,7 +116,7 @@ digraph EngTelecom {
       color = lightgrey
 
       PCA CAL1 PRG1 LOG PTG PJI1 GAL DES
-      
+
     }
 
     subgraph cluster_fase2 {
@@ -127,7 +126,7 @@ digraph EngTelecom {
       // style = filled
       color = lightgrey
 
-      CAL2 FSC1 ALG ELD1 PRG2 QMC1 
+      CAL2 FSC1 ALG ELD1 PRG2 QMC1
     }
 
     subgraph clusterFase3 {
@@ -137,7 +136,7 @@ digraph EngTelecom {
       // style = filled
       color = lightgrey
 
-      CAL3 ELD2 FSC3 QMC2 RED1 MEC   
+      CAL3 ELD2 FSC3 QMC2 RED1 MEC
     }
 
     subgraph clusterFase4 {
@@ -147,7 +146,7 @@ digraph EngTelecom {
       // style=filled
       color=lightgrey
 
-      CIE1 POO CAL4 EMG FSC2 MIC 
+      CIE1 POO CAL4 EMG FSC2 MIC
     }
 
     subgraph cluster_fase5 {
@@ -157,7 +156,7 @@ digraph EngTelecom {
       // style=filled
       color=lightgrey
 
-      SIS1 CIE2 SOP MTG CAN EST RED2 
+      SIS1 CIE2 SOP MTG CAN EST RED2
     }
 
 
