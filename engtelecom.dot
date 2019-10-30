@@ -146,13 +146,13 @@ digraph EngTelecom {
     }
 
     subgraph clusterFase3 {
-      label = "Fase 3 (24/7)"
+      label = "Fase 3 (23/7)"
       style="rounded"
       bgcolor=grey
       // style = filled
       color = black
 
-      ELD2 POO  CAL4 FSC3 CAL3 #20
+      ELD2 POO  CAL4 FSC3 CAL3 #19
       ESC LOG #4
     }
 
@@ -254,7 +254,7 @@ digraph EngTelecom {
     FEN [ch=40, color="#FFA343", id=FEN, label="FEN \n(2) \n 3",  width=0.6]
     FSC1 [ch=80, color="#FFA343", id=FSC1, label="FSC1 \n(4) \n 1",  width=1.2]
     FSC2 [ch=80, color="#FFA343", id=FSC2, label="FSC2 \n(4) \n 2",  width=1.2]
-    FSC3 [ch=100, color="#FFA343", id=FSC3, label="FSC3 \n(5) \n 3",  width=1.5] # TODO verificar se terá redução de CH
+    FSC3 [ch=80, color="#FFA343", id=FSC3, label="FSC3 \n(4) \n 3",  width=1.2]
     GAL [ch=60, color="#FFA343", id=GAL, label="GAL \n(3) \n 1",  width=0.9]
     MEC [ch=40, color="#FFA343", id=MEC, label="MEC \n(2)\n 3",  width=0.6]
     MPQ [ch=40, color="#FFA343", id=MPQ, label="MPQ \n(2) \n 3",  width=0.6]
