@@ -1,0 +1,891 @@
+digraph EngTelecom {
+	graph [fontcolor="#000000",
+		fontname="helvetica Neue Ultra Light",
+		fontsize=25,
+		label="Engenharia de Telecomunicações
+ Carga horária total: 3840 (não inclui ETO, TCC1 e TCC2)",
+		labelloc=t,
+		layout=dot,
+		nodesep=0.3,
+		pad=0.5,
+		ranksep=1.5
+	];
+	node [fixedsize=true,
+		fontname="helvetica Neue Ultra Light bold",
+		labelloc=c,
+		shape=circle,
+		style=filled,
+		width=.8
+	];
+	edge [color="#000000",
+		fontname="helvetica Neue Ultra Light",
+		penwidth=2
+	];
+	{
+		graph [label="Engenharia de Telecomunicações [180 h] - 9"];
+		ALG		 [ch=60,
+			color="#FFA343",
+			id=ALG,
+			label="ALG
+(3)"];
+		CAL1		 [ch=120,
+			color="#FFA343",
+			id=CAL1,
+			label="CAL1
+(6)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [160 h] - 8"];
+		CIE1		 [ch=80,
+			color="#FFD700",
+			id=CIE1,
+			label="CIE1
+(4)"];
+		CAL2		 [ch=80,
+			color="#FFA343",
+			id=CAL2,
+			label="CAL2
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [120 h] - 6"];
+		CIE2		 [ch=60,
+			color="#FFD700",
+			id=CIE2,
+			label="CIE2
+(3)"];
+		SIS2		 [ch=60,
+			color="#007FFF",
+			id=SIS2,
+			label="SIS2
+(3)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [240 h] - 12"];
+		CIE2;
+		FSC3		 [ch=80,
+			color="#FFA343",
+			id=FSC3,
+			label="FSC3
+(4)"];
+		LCI		 [ch=40,
+			color="#FFD700",
+			id=LCI,
+			label="LCI
+(2)"];
+		QMC1		 [ch=60,
+			color="#FFA343",
+			id=QMC1,
+			label="QMC1
+(3)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [200 h] - 10"];
+		SIS2;
+		CIE3		 [ch=60,
+			color="#FFD700",
+			id=CIE3,
+			label="CIE3
+(3)"];
+		ELA1		 [ch=80,
+			color="#FFD700",
+			id=ELA1,
+			label="ELA1
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		CIE1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		PRE		 [ch=80,
+			color="#007FFF",
+			id=PRE,
+			label="PRE
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [100 h] - 5"];
+		COM1		 [ch=100,
+			color="#007FFF",
+			id=COM1,
+			label="COM1
+(5)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [120 h] - 6"];
+		EST		 [ch=60,
+			color="#FFA343",
+			id=EST,
+			label="EST
+(3)"];
+		SIS1		 [ch=60,
+			color="#007FFF",
+			id=SIS1,
+			label="SIS1
+(3)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [60 h] - 3"];
+		SIS2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [100 h] - 5"];
+		ALG;
+		CAL4		 [ch=40,
+			color="#FFA343",
+			id=CAL4,
+			label="CAL4
+(2)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [60 h] - 3"];
+		SIS1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+		horasETO		 [color="#8da3c3",
+			id=horasETO,
+			label="horasETO
+(0)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [120 h] - 6"];
+		PJI1		 [ch=40,
+			color="#808080",
+			id=PJI1,
+			label="PJI1
+(2)"];
+		AOC		 [ch=80,
+			color="#9F8170",
+			id=AOC,
+			label="AOC
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [60 h] - 3"];
+		STD		 [ch=60,
+			color="#339966",
+			id=STD,
+			label="STD
+(3)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [360 h] - 18"];
+		ELA2		 [ch=80,
+			color="#FFD700",
+			id=ELA2,
+			label="ELA2
+(4)"];
+		COM1;
+		PSD		 [ch=60,
+			color="#007FFF",
+			id=PSD,
+			label="PSD
+(3)"];
+		PJI2		 [ch=40,
+			color="#808080",
+			id=PJI2,
+			label="PJI2
+(2)"];
+		ANT		 [ch=80,
+			color="#9678B6",
+			id=ANT,
+			label="ANT
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		STE		 [ch=80,
+			color="#9F8170",
+			id=STE,
+			label="STE
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [40 h] - 2"];
+		MPQ		 [ch=40,
+			color="#FFA343",
+			id=MPQ,
+			label="MPQ
+(2)"];
+		horasTCC		 [color="#8da3c3",
+			id=horasTCC,
+			label="horasTCC
+(0)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [40 h] - 2"];
+		PJI3		 [ch=40,
+			color="#808080",
+			id=PJI3,
+			label="PJI3
+(2)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [40 h] - 2"];
+		TCC1		 [ch=40,
+			color="#808080",
+			id=TCC1,
+			label="TCC1
+(2)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+		horas1980		 [color="#8da3c3",
+			id=horas1980,
+			label="horas1980
+(0)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [60 h] - 3"];
+		GAL		 [ch=60,
+			color="#FFA343",
+			id=GAL,
+			label="GAL
+(3)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [120 h] - 6"];
+		CAL1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [140 h] - 7"];
+		CAL2;
+		GAL;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		CAL2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [140 h] - 7"];
+		ALG;
+		PRG1		 [ch=80,
+			color="#339966",
+			id=PRG1,
+			label="PRG1
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [40 h] - 2"];
+		CAL4;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [40 h] - 2"];
+		ADM		 [ch=40,
+			color="#FFA343",
+			id=ADM,
+			label="ADM
+(2)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [120 h] - 6"];
+		CAL1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		FSC2		 [ch=80,
+			color="#FFA343",
+			id=FSC2,
+			label="FSC2
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		FSC1		 [ch=80,
+			color="#FFA343",
+			id=FSC1,
+			label="FSC1
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [160 h] - 8"];
+		CAL2;
+		FSC1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [160 h] - 8"];
+		CAL2;
+		FSC1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [60 h] - 3"];
+		EST;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [60 h] - 3"];
+		QMC1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		ELD2		 [ch=80,
+			color="#9F8170",
+			id=ELD2,
+			label="ELD2
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		MIC		 [ch=80,
+			color="#9F8170",
+			id=MIC,
+			label="MIC
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [160 h] - 8"];
+		PRG1;
+		ELD1		 [ch=80,
+			color="#9F8170",
+			id=ELD1,
+			label="ELD1
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [120 h] - 6"];
+		LCI;
+		AOC;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		POO		 [ch=80,
+			color="#339966",
+			id=POO,
+			label="POO
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [240 h] - 12"];
+		MIC;
+		POO;
+		SOP		 [ch=80,
+			color="#339966",
+			id=SOP,
+			label="SOP
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		MTG		 [ch=80,
+			color="#9678B6",
+			id=MTG,
+			label="MTG
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [180 h] - 9"];
+		ELA2;
+		COM1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [180 h] - 9"];
+		COM1;
+		ANT;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [160 h] - 8"];
+		FSC3;
+		CAL3		 [ch=80,
+			color="#FFA343",
+			id=CAL3,
+			label="CAL3
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		EMG		 [ch=80,
+			color="#9678B6",
+			id=EMG,
+			label="EMG
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [60 h] - 3"];
+		CSF		 [ch=60,
+			color="#9678B6",
+			id=CSF,
+			label="CSF
+(3)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [60 h] - 3"];
+		SIS1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [160 h] - 8"];
+		PRE;
+		RED2		 [ch=80,
+			color="#77DD77",
+			id=RED2,
+			label="RED2
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		PRG1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		RED1		 [ch=80,
+			color="#77DD77",
+			id=RED1,
+			label="RED1
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		POO;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		PRG2		 [ch=80,
+			color="#339966",
+			id=PRG2,
+			label="PRG2
+(4)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [40 h] - 2"];
+		LOG		 [ch=40,
+			color="#339966",
+			id=LOG,
+			label="LOG
+(2)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [80 h] - 4"];
+		PRG1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [60 h] - 3"];
+		STD;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [160 h] - 8"];
+		AOC;
+		PRG2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [240 h] - 12"];
+		POO;
+		SOP;
+		RED1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [180 h] - 9"];
+		edge [style=invis,
+			weight=100
+		];
+		MPQ;
+		TCC1;
+		MPQ -> TCC1		 [style=invis,
+			weight=100];
+		TCC2		 [ch=100,
+			color="#808080",
+			id=TCC2,
+			label="TCC2
+(5)"];
+		TCC1 -> TCC2		 [style=invis,
+			weight=100];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações [620 h] - 31"];
+		edge [style=invis,
+			weight=100
+		];
+		CAL1;
+		CAL2;
+		CAL1 -> CAL2		 [style=invis,
+			weight=100];
+		CAL4;
+		CAL2 -> CAL4		 [style=invis,
+			weight=100];
+		CAL3;
+		CAL4 -> CAL3		 [style=invis,
+			weight=100];
+		ANT;
+		CSF;
+		ANT -> CSF		 [style=invis,
+			weight=100];
+		EMG;
+		CAL3 -> EMG		 [style=invis,
+			weight=100];
+		MTG;
+		MTG -> ANT		 [style=invis,
+			weight=100];
+		EMG -> MTG		 [style=invis,
+			weight=100];
+	}
+	subgraph cluster_fase5 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 5 [480 h] - 24",
+			style=rounded
+		];
+		CIE2;
+		SIS2;
+		CAN		 [ch=40,
+			color="#FFA343",
+			id=CAN,
+			label="CAN
+(2)"];
+		MIC;
+		SOP;
+		EMG;
+		RED1;
+	}
+	subgraph cluster_fase4 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 4 [460 h] - 23",
+			style=rounded
+		];
+		CIE1;
+		FSC3;
+		LCI;
+		SIS1;
+		AOC;
+		CAL3;
+		PTG		 [ch=40,
+			color="#FFA343",
+			id=PTG,
+			label="PTG
+(2)"];
+	}
+	subgraph cluster_fase3 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 3 [420 h] - 21",
+			style=rounded
+		];
+		EST;
+		CAL4;
+		ESC		 [ch=40,
+			color="#FFA343",
+			id=ESC,
+			label="ESC
+(2)"];
+		FSC2;
+		MEC		 [ch=40,
+			color="#FFA343",
+			id=MEC,
+			label="MEC
+(2)"];
+		ELD2;
+		POO;
+	}
+	subgraph cluster_fase1 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 1 [400 h] - 20",
+			style=rounded
+		];
+		CAL1;
+		QMC1;
+		PJI1;
+		GAL;
+		PRG1;
+		LOG;
+	}
+	subgraph cluster_fase2 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 2 [460 h] - 23",
+			style=rounded
+		];
+		ALG;
+		CAL2;
+		DES		 [ch=40,
+			color="#FFA343",
+			id=DES,
+			label="DES
+(2)"];
+		FSC1;
+		QMC2		 [ch=40,
+			color="#FFA343",
+			id=QMC2,
+			label="QMC2
+(2)"];
+		ELD1;
+		PRG2;
+	}
+	subgraph cluster_fase6 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 6 [460 h] - 23",
+			style=rounded
+		];
+		ELA1;
+		PRE;
+		PJI2;
+		STD;
+		FEN		 [ch=40,
+			color="#FFA343",
+			id=FEN,
+			label="FEN
+(2)"];
+		MTG;
+		RED2;
+	}
+	subgraph cluster_fase7 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 7 [480 h] - 24",
+			style=rounded
+		];
+		CIE3;
+		COM1;
+		PSD;
+		ANT;
+		STE;
+		DLP		 [ch=40,
+			color="#9F8170",
+			id=DLP,
+			label="DLP
+(2)"];
+		TLF		 [ch=60,
+			color="#9678B6",
+			id=TLF,
+			label="TLF
+(3)"];
+	}
+	subgraph cluster_fase8 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 8 [440 h] - 22",
+			style=rounded
+		];
+		ELA2;
+		COM2		 [ch=80,
+			color="#007FFF",
+			id=COM2,
+			label="COM2
+(4)"];
+		MPQ;
+		ADM;
+		CSF;
+		ADS		 [ch=40,
+			color="#77DD77",
+			id=ADS,
+			label="ADS
+(2)"];
+		BCD		 [ch=60,
+			color="#339966",
+			id=BCD,
+			label="BCD
+(3)"];
+		PTC		 [ch=40,
+			color="#339966",
+			id=PTC,
+			label="PTC
+(2)"];
+	}
+	subgraph cluster_fase9 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 9 [280 h] - 14",
+			style=rounded
+		];
+		PJI3;
+		TCC1;
+		ECO		 [ch=40,
+			color="#FFA343",
+			id=ECO,
+			label="ECO
+(2)"];
+		SUS		 [ch=40,
+			color="#FFA343",
+			id=SUS,
+			label="SUS
+(2)"];
+		CRF		 [ch=60,
+			color="#9678B6",
+			id=CRF,
+			label="CRF
+(3)"];
+		STC		 [ch=60,
+			color="#9678B6",
+			id=STC,
+			label="STC
+(3)"];
+	}
+	subgraph cluster_fase10 {
+		graph [bgcolor=grey,
+			color=grey,
+			label="Fase 10 [260 h] - 13",
+			style=rounded
+		];
+		ETO		 [ch=160,
+			color="#808080",
+			id=ETO,
+			label="ETO
+(8)"];
+		TCC2;
+	}
+	subgraph cluster_opcional6 {
+		graph [bgcolor=lightblue,
+			color=grey,
+			label="Optativa 6 [0 h] - 0",
+			style=rounded
+		];
+	}
+	subgraph cluster_opcional7 {
+		graph [bgcolor=lightblue,
+			color=grey,
+			label="Optativa 7 [240 h] - 12",
+			style=rounded
+		];
+		DLP;
+		TLF;
+		ADS;
+		BCD;
+		PTC;
+	}
+	subgraph cluster_opcional8 {
+		graph [bgcolor=lightblue,
+			color=grey,
+			label="Optativa 8 [0 h] - 0",
+			style=rounded
+		];
+	}
+	subgraph cluster_opcional9 {
+		graph [bgcolor=lightblue,
+			color=grey,
+			label="Optativa 9 [120 h] - 6",
+			style=rounded
+		];
+		CRF;
+		STC;
+	}
+	ALG -> CIE1;
+	ALG -> SIS1;
+	ALG -> CAN;
+	CAL1 -> CIE1;
+	CAL1 -> CAL2;
+	CAL1 -> EST;
+	CIE1 -> CIE2;
+	CIE1 -> LCI	 [color="#FF0000",
+		constraint=false];
+	CAL2 -> CIE2;
+	CAL2 -> FSC3;
+	CAL2 -> CAL4;
+	CAL2 -> CAL3;
+	CAL2 -> MEC;
+	CIE2 -> CIE3;
+	CIE2 -> ELA1;
+	SIS2 -> CIE3;
+	SIS2 -> ELA2;
+	SIS2 -> PSD;
+	CIE3 -> ELA2;
+	FSC3 -> ELA1;
+	FSC3 -> EMG;
+	LCI -> ELA1;
+	LCI -> MIC;
+	QMC1 -> ELA1;
+	QMC1 -> QMC2;
+	ELA1 -> ELA2;
+	ELA2 -> PJI3;
+	ELA2 -> CRF;
+	PRE -> COM1;
+	PRE -> ADS;
+	COM1 -> COM2;
+	COM1 -> PJI3;
+	COM1 -> CRF;
+	COM1 -> CSF;
+	EST -> PRE;
+	EST -> MPQ;
+	SIS1 -> SIS2;
+	SIS1 -> PRE;
+	SIS1 -> TLF;
+	PSD -> PJI3;
+	CAL4 -> SIS1;
+	CAL4 -> CAN	 [color="#FF0000",
+		constraint=false];
+	horasETO -> ETO;
+	PJI1 -> PJI2;
+	AOC -> PJI2;
+	AOC -> MIC;
+	AOC -> SOP;
+	PJI2 -> PJI3;
+	STD -> PJI2	 [color="#FF0000",
+		constraint=false];
+	STD -> PTC;
+	ANT -> PJI3;
+	ANT -> CSF;
+	PJI3 -> TCC1	 [color="#FF0000",
+		constraint=false];
+	STE -> PJI3	 [color="#FF0000",
+		constraint=false];
+	MPQ -> TCC1;
+	horasTCC -> TCC1;
+	TCC1 -> TCC2;
+	horas1980 -> ADM;
+	ADM -> ECO;
+	GAL -> ALG;
+	GAL -> CAL3;
+	CAL3 -> EMG;
+	PRG1 -> CAN;
+	PRG1 -> ELD2;
+	PRG1 -> RED1;
+	PRG1 -> PRG2;
+	FSC2 -> FEN;
+	FSC1 -> FSC3;
+	FSC1 -> FSC2;
+	FSC1 -> MEC;
+	ELD2 -> AOC;
+	MIC -> STE;
+	MIC -> DLP;
+	ELD1 -> ELD2;
+	POO -> STD;
+	POO -> STE;
+	POO -> MIC	 [color="#FF0000",
+		constraint=false];
+	POO -> BCD;
+	SOP -> STD;
+	SOP -> STE;
+	MTG -> ANT;
+	CSF -> STC;
+	EMG -> MTG;
+	RED2 -> ADS;
+	RED1 -> STD;
+	RED1 -> RED2;
+	LOG -> PRG1	 [color="#FF0000",
+		constraint=false];
+	PRG2 -> POO;
+	PRG2 -> SOP;
+}

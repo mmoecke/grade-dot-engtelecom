@@ -1,0 +1,849 @@
+digraph EngTelecom {
+	graph [fontcolor="#000000",
+		fontname="helvetica Neue Ultra Light",
+		fontsize=25,
+		label="Engenharia de Telecomunicações (210/65)
+ Carga horária total: 3900 (não inclui ETO, TCC1 e TCC2)",
+		labelloc=t,
+		layout=dot,
+		nodesep=0.2,
+		pad=0.5,
+		ranksep=1.3
+	];
+	node [fixedsize=true,
+		fontname="helvetica Neue Ultra Light bold",
+		height=0.8,
+		labelloc=c,
+		shape=rectangle,
+		style=filled
+	];
+	edge [color="#000000",
+		fontname="helvetica Neue Ultra Light",
+		penwidth=2
+	];
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+		horas1980		 [color="#5b6e8b",
+			id="1980h",
+			label="1980h
+(0)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [40 h] - 2"];
+		ADM		 [ch=40,
+			color="#FFA343",
+			id=ADM,
+			label="ADM
+(2)",
+			width=0.6];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		CAL1		 [ch=80,
+			color="#FFA343",
+			id=CAL1,
+			label="CAL1
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		FSC2		 [ch=80,
+			color="#FFA343",
+			id=FSC2,
+			label="FSC2
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [160 h] - 8"];
+		CAL2		 [ch=80,
+			color="#FFA343",
+			id=CAL2,
+			label="CAL2
+(4)",
+			width=1.2];
+		FSC1		 [ch=80,
+			color="#FFA343",
+			id=FSC1,
+			label="FSC1
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		EST		 [ch=60,
+			color="#FFA343",
+			id=EST,
+			label="EST
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		QMC1		 [ch=60,
+			color="#FFA343",
+			id=QMC1,
+			label="QMC1
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		GAL		 [ch=60,
+			color="#FFA343",
+			id=GAL,
+			label="GAL
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [40 h] - 2"];
+		PCA		 [ch=40,
+			color="#FFA343",
+			id=PCA,
+			label="PCA
+(2)",
+			width=0.6];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		CAL1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [140 h] - 7"];
+		CAL2;
+		GAL;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		CAL2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [140 h] - 7"];
+		CAL2;
+		ALG		 [ch=60,
+			color="#FFA343",
+			id=ALG,
+			label="ALG
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [40 h] - 2"];
+		PCA;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		FSC1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		FSC1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		CAL2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [140 h] - 7"];
+		CAL1;
+		ALG;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [100 h] - 5"];
+		FSC3		 [ch=100,
+			color="#FFA343",
+			id=FSC3,
+			label="FSC3
+(5)",
+			width=1.5];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		CIE1		 [ch=80,
+			color="#FFD700",
+			id=CIE1,
+			label="CIE1
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		CAL2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [120 h] - 6"];
+		CIE2		 [ch=60,
+			color="#FFD700",
+			id=CIE2,
+			label="CIE2
+(3)",
+			width=0.9];
+		SIS2		 [ch=60,
+			color="#007FFF",
+			id=SIS2,
+			label="SIS2
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [100 h] - 5"];
+		QMC1;
+		LCI		 [ch=40,
+			color="#FFD700",
+			id=LCI,
+			label="LCI
+(2)",
+			width=0.6];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		CIE2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [200 h] - 10"];
+		CAL2;
+		CIE2;
+		SIS2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		ELA1		 [ch=80,
+			color="#FFD700",
+			id=ELA1,
+			label="ELA1
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		CIE3		 [ch=60,
+			color="#FFD700",
+			id=CIE3,
+			label="CIE3
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		ELA2		 [ch=80,
+			color="#FFD700",
+			id=ELA2,
+			label="ELA2
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [140 h] - 7"];
+		CIE1;
+		SIS1		 [ch=60,
+			color="#007FFF",
+			id=SIS1,
+			label="SIS1
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		PRE		 [ch=80,
+			color="#007FFF",
+			id=PRE,
+			label="PRE
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [100 h] - 5"];
+		COM1		 [ch=100,
+			color="#007FFF",
+			id=COM1,
+			label="COM1
+(5)",
+			width=1.5];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		EST;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		SIS1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [140 h] - 7"];
+		CAL2;
+		ALG;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [40 h] - 2"];
+		CAL4		 [ch=40,
+			color="#FFA343",
+			id=CAL4,
+			label="CAL4
+(2)",
+			width=0.6];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		SIS1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [40 h] - 2"];
+		CAL4;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		SIS2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [220 h] - 11"];
+		PJI1		 [ch=40,
+			color="#808080",
+			id=PJI1,
+			label="PJI1
+(2)",
+			width=0.6];
+		RED2		 [ch=80,
+			color="#77DD77",
+			id=RED2,
+			label="RED2
+(4)",
+			width=1.2];
+		MIC		 [ch=100,
+			color="#9F8170",
+			id=MIC,
+			label="MIC
+(5)",
+			width=1.5];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		STD		 [ch=60,
+			color="#339966",
+			id=STD,
+			label="STD
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [120 h] - 6"];
+		PJI2		 [ch=40,
+			color="#808080",
+			id=PJI2,
+			label="PJI2
+(2)",
+			width=0.6];
+		ANT		 [ch=80,
+			color="#9678B6",
+			id=ANT,
+			label="ANT
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [160 h] - 8"];
+		COM1;
+		PSD		 [ch=60,
+			color="#007FFF",
+			id=PSD,
+			label="PSD
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		STE		 [ch=80,
+			color="#9F8170",
+			id=STE,
+			label="STE
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		ELA2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [40 h] - 2"];
+		MPQ		 [ch=40,
+			color="#FFA343",
+			id=MPQ,
+			label="MPQ
+(2)",
+			width=0.6];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [40 h] - 2"];
+		PJI3		 [ch=40,
+			color="#808080",
+			id=PJI3,
+			label="PJI3
+(2)",
+			width=0.6];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [40 h] - 2"];
+		TCC1		 [ch=40,
+			color="#808080",
+			id=TCC1,
+			label="TCC1
+(2)",
+			width=0.6];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+		horas2940		 [color="#5b6e8b",
+			id="2940h",
+			label="2940h
+(0)"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [180 h] - 9"];
+		MIC;
+		SOP		 [ch=80,
+			color="#339966",
+			id=SOP,
+			label="SOP
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [100 h] - 5"];
+		ELD1		 [ch=100,
+			color="#9F8170",
+			id=ELD1,
+			label="ELD1
+(5)",
+			width=1.5];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [180 h] - 9"];
+		ELD2		 [ch=100,
+			color="#9F8170",
+			id=ELD2,
+			label="ELD2
+(5)",
+			width=1.5];
+		PRG2		 [ch=80,
+			color="#339966",
+			id=PRG2,
+			label="PRG2
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		POO		 [ch=80,
+			color="#339966",
+			id=POO,
+			label="POO
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [260 h] - 13"];
+		MIC;
+		SOP;
+		POO;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		MTG		 [ch=80,
+			color="#9678B6",
+			id=MTG,
+			label="MTG
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [100 h] - 5"];
+		COM1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [180 h] - 9"];
+		COM1;
+		ANT;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [40 h] - 2"];
+		ELA3		 [ch=40,
+			color="#FFD700",
+			id=ELA3,
+			label="ELA3
+(2)",
+			width=0.6];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		STC		 [ch=60,
+			color="#9678B6",
+			id=STC,
+			label="STC
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		CRF		 [ch=60,
+			color="#9678B6",
+			id=CRF,
+			label="CRF
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		ANT;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [180 h] - 9"];
+		CAL3		 [ch=80,
+			color="#FFA343",
+			id=CAL3,
+			label="CAL3
+(4)",
+			width=1.2];
+		FSC3;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		EMG		 [ch=60,
+			color="#9678B6",
+			id=EMG,
+			label="EMG
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		CSF		 [ch=60,
+			color="#9678B6",
+			id=CSF,
+			label="CSF
+(3)",
+			width=0.9];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [140 h] - 7"];
+		SIS1;
+		MTG;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [180 h] - 9"];
+		ELD1;
+		PRG1		 [ch=80,
+			color="#339966",
+			id=PRG1,
+			label="PRG1
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		RED1		 [ch=80,
+			color="#77DD77",
+			id=RED1,
+			label="RED1
+(4)",
+			width=1.2];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [120 h] - 6"];
+		PRE;
+		PTC		 [ch=40,
+			color="#339966",
+			id=PTC,
+			label="PTC
+(2)",
+			width=0.6];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [0 h] - 0"];
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		PRG1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		PRG2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [180 h] - 9"];
+		MIC;
+		PRG2;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [240 h] - 12"];
+		SOP;
+		POO;
+		RED1;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [80 h] - 4"];
+		POO;
+	}
+	{
+		graph [label="Engenharia de Telecomunicações (210/65) [60 h] - 3"];
+		STD;
+	}
+	horas1980 -> ADM;
+	ECO	 [ch=40,
+		color="#FFA343",
+		id=ECO,
+		label="ECO
+(2)",
+		width=0.6];
+	ADM -> ECO;
+	DES	 [ch=40,
+		color="#FFA343",
+		id=DES,
+		label="DES
+(2)",
+		width=0.6];
+	ESC	 [ch=40,
+		color="#FFA343",
+		id=ESC,
+		label="ESC
+(2)",
+		width=0.6];
+	PTG	 [ch=40,
+		color="#FFA343",
+		id=PTG,
+		label="PTG
+(2)",
+		width=0.6];
+	QMC2	 [ch=40,
+		color="#FFA343",
+		id=QMC2,
+		label="QMC2
+(2)",
+		width=0.6];
+	QMC1 -> QMC2;
+	QMC1 -> ELA1;
+	SUS	 [ch=40,
+		color="#FFA343",
+		id=SUS,
+		label="SUS
+(2)",
+		width=0.6];
+	CAL1 -> EST;
+	CAL1 -> CAL2	 [color=red,
+		penwidth=4];
+	CAL1 -> CIE1;
+	EST -> MPQ;
+	EST -> PRE;
+	FEN	 [ch=40,
+		color="#FFA343",
+		id=FEN,
+		label="FEN
+(2)",
+		width=0.6];
+	FSC2 -> FEN;
+	MEC	 [ch=40,
+		color="#FFA343",
+		id=MEC,
+		label="MEC
+(2)",
+		width=0.6];
+	CAL2 -> MEC;
+	CAL2 -> CAL3;
+	CAL2 -> CAL4	 [color=red,
+		penwidth=4];
+	CAN	 [ch=40,
+		color="#FFA343",
+		id=CAN,
+		label="CAN
+(2)",
+		width=0.6];
+	CAL2 -> CAN;
+	CAL2 -> FSC3	 [color=red,
+		penwidth=4];
+	CAL2 -> CIE2;
+	CAL2 -> ELA2;
+	CAL2 -> SIS1;
+	FSC1 -> FSC2;
+	FSC1 -> MEC;
+	FSC1 -> FSC3;
+	MPQ -> TCC1;
+	PCA -> CAL1	 [color=red,
+		constraint=false,
+		penwidth=4];
+	PCA -> FSC1;
+	GAL -> ALG;
+	GAL -> CAL3;
+	ALG -> CAN;
+	ALG -> CIE1;
+	ALG -> SIS1;
+	CAL3 -> EMG;
+	CAL4 -> SIS1	 [color=red,
+		penwidth=4];
+	CAL4 -> PSD;
+	FSC3 -> CIE1	 [color=red,
+		penwidth=4];
+	FSC3 -> EMG;
+	CIE1 -> CIE2	 [color=red,
+		penwidth=4];
+	CIE1 -> LCI;
+	CIE2 -> CIE3;
+	CIE2 -> ELA1	 [color=red,
+		penwidth=4];
+	CIE2 -> ELA2;
+	SIS2 -> CIE3;
+	SIS2 -> ELA2;
+	SIS2 -> PSD	 [color=red,
+		penwidth=4];
+	CIE3 -> ELA3;
+	LCI -> ELA1;
+	ELA1 -> ELA2	 [color=red,
+		penwidth=4];
+	ELA2 -> ELA3	 [color=red,
+		penwidth=4];
+	ELA2 -> PJI3	 [color=blue,
+		constraint=false];
+	ELA3 -> CRF	 [color=red,
+		penwidth=4];
+	SIS1 -> SIS2	 [color=red,
+		penwidth=4];
+	SIS1 -> LCI;
+	SIS1 -> PRE	 [color=red,
+		penwidth=4];
+	TLF	 [ch=80,
+		color="#9678B6",
+		id=TLF,
+		label="TLF
+(4)",
+		width=1.2];
+	SIS1 -> TLF;
+	PRE -> COM1	 [color=red,
+		penwidth=4];
+	ADS	 [ch=40,
+		color="#77DD77",
+		id=ADS,
+		label="ADS
+(2)",
+		width=0.6];
+	PRE -> ADS;
+	COM2	 [ch=80,
+		color="#007FFF",
+		id=COM2,
+		label="COM2
+(4)",
+		width=1.2];
+	COM1 -> COM2;
+	COM1 -> ANT	 [color=blue,
+		constraint=false];
+	COM1 -> PJI3	 [color=red,
+		penwidth=4];
+	COM1 -> CRF;
+	PSD -> PJI3	 [color=red,
+		penwidth=4];
+	PJI1 -> PJI2;
+	RED2 -> PJI2;
+	MIC -> PJI2;
+	MIC -> STE;
+	MIC -> SOP;
+	DLP	 [ch=60,
+		color="#9F8170",
+		id=DLP,
+		label="DLP
+(3)",
+		width=0.9];
+	MIC -> DLP;
+	PJI2 -> PJI3;
+	STD -> PJI2	 [color=blue,
+		constraint=false];
+	STD -> PTC;
+	ANT -> PJI3;
+	ANT -> CRF;
+	ANT -> CSF;
+	PJI3 -> TCC1	 [color=red,
+		penwidth=4];
+	STE -> PJI3	 [color=blue,
+		constraint=false];
+	TCC2	 [ch=100,
+		color="#808080",
+		id=TCC2,
+		label="TCC2
+(5)",
+		width=1.5];
+	TCC1 -> TCC2	 [color=red,
+		penwidth=4];
+	ETO	 [ch=160,
+		color="#808080",
+		id=ETO,
+		label="ETO
+(8)",
+		width=2.4];
+	horas2940 -> ETO;
+	SOP -> STD;
+	SOP -> STE;
+	SOP -> DLP;
+	ELD1 -> ELD2;
+	ELD1 -> RED1;
+	ELD2 -> MIC;
+	PRG2 -> MIC;
+	PRG2 -> SOP;
+	PRG2 -> POO;
+	POO -> MIC	 [color=blue,
+		constraint=false];
+	POO -> STD;
+	POO -> STE;
+	BCD	 [ch=60,
+		color="#339966",
+		id=BCD,
+		label="BCD
+(3)",
+		width=0.9];
+	POO -> BCD;
+	MTG -> ANT;
+	MTG -> TLF;
+	CRF -> STC	 [color=blue,
+		constraint=false];
+	STC -> CRF	 [color=blue,
+		constraint=false];
+	CSF -> STC;
+	EMG -> MTG;
+	PRG1 -> PRG2;
+	PRG1 -> RED1;
+	RED1 -> RED2;
+	RED1 -> STD;
+	PTC -> ADS;
+	LOG	 [ch=40,
+		color="#339966",
+		id=LOG,
+		label="LOG
+(2)",
+		width=0.6];
+}
